@@ -1,0 +1,57 @@
+.contact-page {
+  background-image: url('src/components/backgroud.png'); /* Replace with your background image URL */
+  background-color: #f4f4f4; /* Light gray background for better contrast */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* Slight transparency effect */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 1200px;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  background-color: #0270c9;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-link:hover {
+  background-color: #e4ebe6; /* Darker blue on hover */
+}
+
+.contact-card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f3eff1; /* Bright contact card */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  color: rgb(20, 13, 13);
+}
+
+.contact-card h3 {
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 16px;
+}

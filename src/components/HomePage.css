@@ -1,0 +1,49 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency effect */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.home-page {
+  background-image: url('src/components/backgroud.png'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Admin Section Styling */
+.admin-section, .owner-section, .tenant-section {
+  background-color: rgba(201, 124, 245, 0.051);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  display: inline-block;
+  width: 80%;
+  max-width: 600px;
+}
+
+h3 {
+  color: #03040f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 3px;
+  background-color: #3b80b8;
+  margin: 4px 0;
+  border-radius: 5px;
+  color: white;
+}
