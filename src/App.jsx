@@ -25,7 +25,7 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/project">
       <AuthProvider>
         <AppContent />
       </AuthProvider>
